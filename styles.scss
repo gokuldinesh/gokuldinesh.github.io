@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  // background: #f5f5f5;
+  background: url(./assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+.font-headings {
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+.font-condensed {
+  font-family: "Fjalla One", sans-serif;
+}
+.font-regular {
+  font-family: "Titillium Web", sans-serif;
+}
+.color-black {
+  color: #000;
+}
+.color-light-black {
+  color: #333;
+}
+.color-dark-grey {
+  color: #666;
+}
+.color-grey {
+  color: #999;
+}
+.color-light-grey {
+  color: #ccc;
+}
+.color-white {
+  color: #fff;
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.blur-box {
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+}
+.profile-container {
+  text-align: center;
+  padding-top: 200px;
+}
+.profile-box {
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.profile-icon-container {
+  width: 100px;
+  height: 100px;
+  margin: 100px 100px 40px 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-icon {
+  width: 100px;
+  height: 100px;
+}
+.profile-main-text {
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+.profile-sub-text {
+  line-height: 20px;
+}
