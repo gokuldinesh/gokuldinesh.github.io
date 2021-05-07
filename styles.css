@@ -1,0 +1,140 @@
+:root {
+  --background: #121212;
+  --surface-level: #1e1e1e;
+  --hover-level: #272727;
+  --separator: #282828;
+  --primary: rgba(255, 255, 255, 0.87);
+  --secondary: rgba(255, 255, 255, 0.6);
+  --disabled: rgba(255, 255, 255, 0.38);
+  --accent: #ff4d4f;
+  --icon: #ff4d4f;
+  --icon-bg: #272727;
+  --icon-hover: #333333;
+}
+/* :root {
+  --background: #f4f4f4;
+  --surface-level: #fff;
+  --hover-level: #e8e8e8;
+  --separator: #e8e8e8;
+  --primary: rgba(0, 0, 0, 0.87);
+  --secondary: rgba(0, 0, 0, 0.6);
+  --disabled: rgba(0, 0, 0, 0.38);
+  --accent: #ff4d4f;
+  --icon: #ff4d4f;
+  --icon-bg: #f4f4f4;
+  --icon-hover: #e8e8e8;
+} */
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  background: var(--background);
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: var(--primary);
+  font-size: 14px;
+  line-height: 20px;
+}
+.font-headings {
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+.font-condensed {
+  font-family: "Fjalla One", sans-serif;
+}
+.font-regular {
+  font-family: "Titillium Web", sans-serif;
+}
+.color-primary {
+  color: var(--primary);
+}
+.color-secondary {
+  color: var(--secondary);
+}
+.color-disabled {
+  color: var(--disabled);
+}
+.color-accent {
+  color: var(--accent);
+}
+.color-icon {
+  color: var(--icon);
+}
+.font-size-12 {
+  font-size: 12px;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.icon-fab {
+  display: inline-block;
+  vertical-align: middle;
+  background: var(--icon-bg);
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+.icon-fab:hover {
+  background: var(--icon-hover);
+}
+.big-icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card {
+  border-radius: 10px;
+  background: var(--surface-level);
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.elevation-z1 {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+.elevation-z2 {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.elevation-z3 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+.elevation-z4 {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.sections-container {
+  margin: 20px;
+  width: calc(100% - 40px);
+}
+.section-card {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px 20px;
+  text-align: center;
+  width: calc(33.3% - 100px);
+  margin: 10px;
+}
+.section-icon-container {
+  display: inline-block;
+}
+.profile-icon {
+  height: 100px;
+  width: 100px;
+}
+.section-details {
+  padding: 30px 0;
+}
