@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-18T08:36:00.780Z",
+  "generatedAt": "2026-05-18T12:27:33.477Z",
   "entries": [
     {
       "type": "portfolio",
@@ -67,6 +67,22 @@
         "other",
         "on-site",
         "path.",
+        "put",
+        "prose",
+        "use",
+        "only.",
+        "write",
+        "bare",
+        "paths",
+        "closing",
+        "ctas",
+        "such",
+        "review",
+        "his",
+        "history",
+        "reach",
+        "out",
+        "via",
         "external",
         "urls",
         "from",
@@ -82,7 +98,7 @@
         "proof",
         "links."
       ],
-      "content": "## Portfolio navigation (chat links allowlist)\n\nHomepage section hashes (for the sources footer only):\n\n- #contact → Contact\n- #credentials → Credentials (education and certifications)\n- #experience → Experience\n- #about → About\n- #expertise → Expertise\n- #technologies → Technologies\n- #home, #highlights as needed\n\nResume page (inline in the answer when relevant): [Resume](/resume/)\n\nDo **not** link to `/credentials`, `/credentials/[slug]`, `/pages`, or any other on-site path.\nExternal URLs from context (LinkedIn, GitHub, mailto, issuer sites) are fine when quoting contact or proof links."
+      "content": "## Portfolio navigation (chat links allowlist)\n\nHomepage section hashes (for the sources footer only):\n\n- #contact → Contact\n- #credentials → Credentials (education and certifications)\n- #experience → Experience\n- #about → About\n- #expertise → Expertise\n- #technologies → Technologies\n- #home, #highlights as needed\n\nResume page (inline in the answer when relevant): [Resume](/resume/)\n\nDo **not** link to `/credentials`, `/credentials/[slug]`, `/pages`, or any other on-site path.\nDo **not** put homepage section hashes in the answer prose; use the sources footer only.\nDo **not** write bare `/resume/` paths or closing CTAs such as “review his history” or “reach out via the Contact section”.\nExternal URLs from context (LinkedIn, GitHub, mailto, issuer sites) are fine when quoting contact or proof links."
     },
     {
       "type": "portfolio",
