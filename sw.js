@@ -19,6 +19,26 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+self.addEventListener("push", (event) => {
+  const data = event.data?.json?.() ?? {};
+  const title = data.title ?? "Splitzy";
+  const body = data.body ?? "You have a new update.";
+  event.waitUntil(
+    self.registration.showNotification(title, {
+      body,
+      icon: "/icon.png",
+      data: data.url ? { url: data.url } : undefined,
+    }),
+  );
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const url = event.notification.data?.url;
+  if (!url) return;
+  event.waitUntil(clients.openWindow(url));
+});
+
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
 

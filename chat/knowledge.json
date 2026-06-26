@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-22T09:36:41.562Z",
+  "generatedAt": "2026-06-26T06:41:23.271Z",
   "entries": [
     {
       "type": "portfolio",
@@ -1342,6 +1342,28 @@
         "currency."
       ],
       "content": "Fair shares vs who paid each bill, ledger + settlement FX you enter, then minimal transfers in settlement currency."
+    },
+    {
+      "type": "project",
+      "title": "RxPad",
+      "slug": "rxpad",
+      "url": "#about",
+      "tags": [
+        "project",
+        "rxpad",
+        "rxpad",
+        "generate",
+        "india-format",
+        "prescriptions",
+        "from",
+        "manual",
+        "form",
+        "and",
+        "export",
+        "as",
+        "pdf."
+      ],
+      "content": "Generate India-format prescriptions from a manual form and export as PDF."
     }
   ]
 }
