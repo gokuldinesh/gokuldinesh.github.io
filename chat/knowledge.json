@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-26T06:41:23.271Z",
+  "generatedAt": "2026-06-26T14:01:49.620Z",
   "entries": [
     {
       "type": "portfolio",
@@ -1301,18 +1301,15 @@
         "project",
         "linkwrap",
         "linkwrap",
-        "create",
-        "safe",
+        "short",
         "shareable",
         "wrapper",
         "links",
-        "that",
-        "redirect",
-        "to",
-        "original",
-        "urls."
+        "for",
+        "any",
+        "url."
       ],
-      "content": "Create safe, shareable wrapper links that redirect to original URLs."
+      "content": "Short, shareable wrapper links for any URL."
     },
     {
       "type": "project",
@@ -1324,24 +1321,17 @@
         "splitzy",
         "splitzy",
         "fair",
-        "shares",
-        "vs",
-        "who",
-        "paid",
-        "each",
         "bill",
-        "ledger",
+        "splits",
+        "running",
+        "balances",
+        "and",
         "settlement",
-        "fx",
-        "you",
-        "enter",
-        "then",
-        "minimal",
         "transfers",
-        "in",
-        "currency."
+        "for",
+        "groups."
       ],
-      "content": "Fair shares vs who paid each bill, ledger + settlement FX you enter, then minimal transfers in settlement currency."
+      "content": "Fair bill splits, running balances, and settlement transfers for groups."
     },
     {
       "type": "project",
@@ -1352,18 +1342,15 @@
         "project",
         "rxpad",
         "rxpad",
-        "generate",
-        "india-format",
+        "guided",
+        "clinic",
         "prescriptions",
-        "from",
-        "manual",
-        "form",
-        "and",
-        "export",
-        "as",
-        "pdf."
+        "with",
+        "print-ready",
+        "pdf",
+        "export."
       ],
-      "content": "Generate India-format prescriptions from a manual form and export as PDF."
+      "content": "Guided clinic prescriptions with a print-ready PDF export."
     }
   ]
 }
