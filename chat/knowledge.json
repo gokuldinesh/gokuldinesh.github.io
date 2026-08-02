@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-28T11:51:08.165Z",
+  "generatedAt": "2026-08-02T23:08:50.099Z",
   "entries": [
     {
       "type": "portfolio",
@@ -346,13 +346,14 @@
         "career",
         "about",
         "highlight",
-        "8",
+        "8+",
         "##",
         "years",
         "of",
         "professional",
         "experience",
         "canonical",
+        "8+",
         "experience.",
         "this",
         "is",
@@ -407,7 +408,7 @@
         "job",
         "timeline."
       ],
-      "content": "## Years of professional experience (canonical)\n\n**8 years** of professional experience. This is the same figure shown in the **Years of Experience** highlight on the portfolio About section.\n\n- Career start: Jul 2018 (from `experience.careerStart`, not education graduation alone).\n- Calculation: months from career start to today; display uses whole years and rounds up when 6+ months remain (site component `ExperienceYears`).\n- For \"how many years of experience\" questions, answer **8** (or \"8 years\"). Do not count only the current employer or a single job on the timeline."
+      "content": "## Years of professional experience (canonical)\n\n**8+ years** of professional experience. This is the same figure shown in the **Years of Experience** highlight on the portfolio About section.\n\n- Career start: Jul 2018 (from `experience.careerStart`, not education graduation alone).\n- Calculation: months from career start to today; display uses whole years and rounds up when 6+ months remain (site component `ExperienceYears`).\n- For \"how many years of experience\" questions, answer **8+** (or \"8+ years\"). Do not count only the current employer or a single job on the timeline."
     },
     {
       "type": "experience",
@@ -435,7 +436,7 @@
         "specialist",
         "programmer"
       ],
-      "content": "## Years of professional experience (canonical)\n\n**8 years** of professional experience. This is the same figure shown in the **Years of Experience** highlight on the portfolio About section.\n\n- Career start: Jul 2018 (from `experience.careerStart`, not education graduation alone).\n- Calculation: months from career start to today; display uses whole years and rounds up when 6+ months remain (site component `ExperienceYears`).\n- For \"how many years of experience\" questions, answer **8** (or \"8 years\"). Do not count only the current employer or a single job on the timeline.\n\nCareer experience timeline (most recent first):\n\n- Application Engineer III at Swiss Re (Jan 2023 - Present, Bengaluru)\n- Senior Software Engineer at EMCAD Technologies (Oct 2021 - Dec 2022, Bengaluru)\n- Specialist Programmer at Infosys (Jul 2018 - Sep 2021, Bengaluru)"
+      "content": "## Years of professional experience (canonical)\n\n**8+ years** of professional experience. This is the same figure shown in the **Years of Experience** highlight on the portfolio About section.\n\n- Career start: Jul 2018 (from `experience.careerStart`, not education graduation alone).\n- Calculation: months from career start to today; display uses whole years and rounds up when 6+ months remain (site component `ExperienceYears`).\n- For \"how many years of experience\" questions, answer **8+** (or \"8+ years\"). Do not count only the current employer or a single job on the timeline.\n\nCareer experience timeline (most recent first):\n\n- Application Engineer III at Swiss Re (Jan 2023 - Present, Bengaluru)\n- Senior Software Engineer at EMCAD Technologies (Oct 2021 - Dec 2022, Bengaluru)\n- Specialist Programmer at Infosys (Jul 2018 - Sep 2021, Bengaluru)"
     },
     {
       "type": "certification",
@@ -540,7 +541,7 @@
         "modern",
         "environments."
       ],
-      "content": "## Architect by choice. Builder at heart.\n\n\n\nFocused on reusable engineering platforms, scalable delivery practices, and thoughtful design choices that keep enterprise applications maintainable as teams and scope grow.\n\n\n\nArchitecting scalable enterprise platforms, engineering systems, and AI-Assisted Workflows .\n\n\n\nI work across application architecture, internal platform foundations, and the delivery practices that help large engineering organizations stay aligned without slowing down.\n\nMy focus is resilient enterprise systems, stronger developer productivity, and reusable solutions that scale across teams, services, and shared code.\n\nI specialize in application architecture, system design, engineering standards, and pragmatic AI-assisted workflows in modern enterprise environments.\n\n\n\n### Highlights\n\n- Years of Experience: 8 (About section highlight; career start Jul 2018)\n\n- Enterprise Platform Engineering: Building scalable solutions that drive impact\n\n- Technical Leadership: Driving teams, mentoring talent and delivering business value\n\n- Global Environments: Working with enterprise clients across domains and geographies"
+      "content": "## Architect by choice. Builder at heart.\n\n\n\nFocused on reusable engineering platforms, scalable delivery practices, and thoughtful design choices that keep enterprise applications maintainable as teams and scope grow.\n\n\n\nArchitecting scalable enterprise platforms, engineering systems, and AI-Assisted Workflows .\n\n\n\nI work across application architecture, internal platform foundations, and the delivery practices that help large engineering organizations stay aligned without slowing down.\n\nMy focus is resilient enterprise systems, stronger developer productivity, and reusable solutions that scale across teams, services, and shared code.\n\nI specialize in application architecture, system design, engineering standards, and pragmatic AI-assisted workflows in modern enterprise environments.\n\n\n\n### Highlights\n\n- Years of Experience: 8+ (About section highlight; career start Jul 2018)\n\n- Enterprise Platform Engineering: Building scalable solutions that drive impact\n\n- Technical Leadership: Driving teams, mentoring talent and delivering business value\n\n- Global Environments: Working with enterprise clients across domains and geographies"
     },
     {
       "type": "portfolio",
@@ -1351,6 +1352,26 @@
         "export."
       ],
       "content": "Guided clinic prescriptions with a print-ready PDF export."
+    },
+    {
+      "type": "project",
+      "title": "PGG",
+      "slug": "prestige-green-gables",
+      "url": "#about",
+      "tags": [
+        "project",
+        "prestige-green-gables",
+        "pgg",
+        "prestige",
+        "green",
+        "gables",
+        "rental",
+        "listing",
+        "and",
+        "tenant",
+        "handbook."
+      ],
+      "content": "Prestige Green Gables — rental listing and tenant handbook."
     }
   ]
 }

@@ -1,4 +1,5 @@
 User-Agent: *
 Allow: /
+Disallow: /pages/prestige-green-gables/
 
 Sitemap: https://gokuldinesh.github.io/portfolio/sitemap.xml
