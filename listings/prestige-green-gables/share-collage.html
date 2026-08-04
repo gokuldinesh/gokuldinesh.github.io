@@ -80,7 +80,7 @@
         height: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 1fr 0.86fr;
+        grid-template-rows: auto auto 1fr;
         gap: var(--gap);
         min-height: 0;
       }
@@ -95,6 +95,7 @@
         border-radius: var(--radius);
         overflow: hidden;
         background: var(--listing-bg-elevated);
+        aspect-ratio: 1 / 1;
       }
 
       .grid figure img {
@@ -103,13 +104,6 @@
         object-fit: cover;
         display: block;
       }
-
-      .pos-pool { object-position: 50% 72%; }
-      .pos-hall { object-position: 18% 48%; }
-      .pos-bed1 { object-position: 72% 42%; }
-      .pos-kitchen { object-position: 48% 38%; }
-      .pos-bed2 { object-position: 28% 45%; }
-      .pos-balcony { object-position: 55% 40%; }
 
       .copy {
         grid-column: 1 / span 2;
@@ -199,25 +193,25 @@
   <body>
     <article class="collage" aria-label="Prestige Green Gables share collage">
       <div class="grid">
-        <!-- Row 1 -->
+        <!-- Row 1 — pre-cropped square assets from photos/collage/ -->
         <figure>
-          <img class="pos-balcony" src="photos/interior/balcony.jpg" alt="Balcony" />
+          <img src="photos/collage/collage_1.jpeg" alt="Balcony" />
         </figure>
         <figure>
-          <img class="pos-kitchen" src="photos/interior/kitchen_1.jpg" alt="Kitchen" />
+          <img src="photos/collage/collage_2.jpeg" alt="Kitchen" />
         </figure>
         <figure>
-          <img class="pos-pool" src="photos/exterior/pool.jpg" alt="Pool" />
+          <img src="photos/collage/collage_3.jpeg" alt="Pool" />
         </figure>
         <!-- Row 2 -->
         <figure>
-          <img class="pos-bed1" src="photos/interior/bedroom-1_1.jpg" alt="Bedroom 1" />
+          <img src="photos/collage/collage_4.jpeg" alt="Bedroom 1" />
         </figure>
         <figure>
-          <img class="pos-hall" src="photos/interior/hall_1.jpg" alt="Hall" />
+          <img src="photos/collage/collage_5.jpeg" alt="Hall" />
         </figure>
         <figure>
-          <img class="pos-bed2" src="photos/interior/bedroom-2_1.jpg" alt="Bedroom 2" />
+          <img src="photos/collage/collage_6.jpeg" alt="Bedroom 2" />
         </figure>
         <!-- Row 3 = footer — copy synced from share-constants via export script -->
         <div class="copy">
