@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <title>Share collage — Prestige Green Gables</title>
     <style>
       @font-face {
@@ -37,6 +38,7 @@
         --gap: 5px;
         --pad: 16px;
         --radius: 4px;
+        --footer-copy-top: 36px;
         /* Fixed canvas so browser preview matches PNG export */
         --size: 1080px;
         --font-listing-serif: "Cormorant Garamond", Georgia, serif;
@@ -109,25 +111,42 @@
         grid-column: 1 / span 2;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        min-height: 0;
+        gap: 16px;
+        padding: var(--footer-copy-top) 12px 28px;
+        box-sizing: border-box;
+      }
+
+      .copy-primary {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        gap: 12px;
-        padding: 0 12px 0 12px;
+        min-width: 0;
         min-height: 0;
       }
 
+      .copy-head {
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
       .title {
-        margin: 0;
+        margin: 0 0 12px;
         font-family: var(--font-listing-serif);
         font-weight: 600;
         font-size: 62px;
         letter-spacing: -0.04em;
-        line-height: 0.95;
+        line-height: 1;
         color: var(--listing-fg);
       }
 
       .meta {
-        margin: 0;
+        margin: 0 0 16px;
         font-family: var(--font-listing-sans);
         font-weight: 600;
         font-size: 34px;
@@ -148,27 +167,33 @@
         color: var(--listing-fg-secondary);
       }
 
-      .rent {
-        margin: 0;
+      .cta-block {
         display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
-        column-gap: 0.28em;
-        font-family: var(--font-listing-sans);
-        font-weight: 600;
-        font-size: 38px;
-        font-variant-numeric: tabular-nums;
-        letter-spacing: -0.01em;
-        line-height: 1;
-        color: var(--listing-accent);
+        flex-direction: column;
+        gap: 6px;
+        flex-shrink: 0;
+        min-width: 0;
       }
 
-      .rent .rent-suffix {
+      .cta {
+        margin: 0;
+        font-family: var(--font-listing-sans);
         font-weight: 400;
-        font-size: 26px;
+        font-size: 22px;
+        letter-spacing: 0.02em;
+        line-height: 1;
+        color: var(--listing-fg-secondary);
+      }
+
+      .cta-url {
+        margin: 0;
+        font-family: var(--font-listing-sans);
+        font-weight: 400;
+        font-size: 22px;
         letter-spacing: 0.01em;
+        line-height: 1;
         color: #7a766e;
-        margin-left: 0;
+        word-break: break-all;
       }
 
       .qr {
@@ -215,13 +240,17 @@
         </figure>
         <!-- Row 3 = footer — copy synced from share-constants via export script -->
         <div class="copy">
-          <h1 class="title" data-collage="displayName">Prestige Green Gables</h1>
-          <p class="meta" data-collage="meta"><span class="layout" data-collage="bedrooms">2 BHK</span> · ~1102 sft · 3rd floor</p>
-          <p class="meta-sub" data-collage="metaSub">Outside-facing · Kadubeesanahalli</p>
-          <p class="rent">
-            <span data-collage="rent">₹70,000</span>
-            <span class="rent-suffix" data-collage="rentSuffix">/ month · excl. maint.</span>
-          </p>
+          <div class="copy-primary">
+            <div class="copy-head">
+              <h1 class="title" data-collage="displayName">Prestige Green Gables</h1>
+              <p class="meta" data-collage="meta"><span class="layout" data-collage="bedrooms">2 BHK</span> · ~1102 sft · 3rd floor</p>
+              <p class="meta-sub" data-collage="metaSub">Outside-facing · Kadubeesanahalli</p>
+            </div>
+          </div>
+          <div class="cta-block">
+            <p class="cta" data-collage="visitCta">Full details & contact on the website</p>
+            <p class="cta-url" data-collage="visitUrl">gokuldinesh.github.io/pages/prestige-green-gables/</p>
+          </div>
         </div>
         <div class="qr">
           <img src="qr-listing.png" alt="QR code to listing" />
